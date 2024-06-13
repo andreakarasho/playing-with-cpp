@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build C++",
+        "type": "shell",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "command": "zig",
+        "args": [
+          "build"
+        ],
+        "problemMatcher": "$gcc"  // Adjust for your compiler's problem matcher if needed
+      }
+    ]
+  }
+  
